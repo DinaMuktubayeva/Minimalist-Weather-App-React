@@ -1,7 +1,7 @@
 # Important
 
 The "credentials.js" file isn't present here. It should be created in "src/" and it should contain the following line:\
-`export const API_KEY = // Your API Key //;`
+`export const API_KEY = '// Your API Key //';`
 
 I am still working on error handling, adding the forecast data and styling.
 
