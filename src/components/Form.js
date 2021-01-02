@@ -1,9 +1,9 @@
 import React from 'react';
-import '../App.css';
 
 function Form({ search, getSearch, updateSearch }) {
   return (
-    <form onSubmit={getSearch} className="search-form" >
+    <div className="Navbar">
+    <form onSubmit={getSearch} >
       <input
         id="fieldID"
         type="text" autoFocus
@@ -12,9 +12,11 @@ function Form({ search, getSearch, updateSearch }) {
         className="search-bar"
       />
       <button type="submit" className="search-button">
-        Search
+        <i className="fas fa-search"></i>
       </button>
-    </form>);
+      </form>
+    </div>
+  );
 }
 
 export default Form;

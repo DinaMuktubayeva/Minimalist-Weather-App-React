@@ -1,10 +1,6 @@
 import React, { useState, useEffect } from 'react';
-import "../App.css";
 
 function Weather({ city, weather }) {
-  console.log("Forecast ");
-  console.log(weather);
-
   const [data, setData] = useState({});
   const [hourlyData, setHourlyData] = useState([]);
 
